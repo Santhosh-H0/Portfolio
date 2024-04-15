@@ -7,3 +7,39 @@
     }
 }
 
+@media screen and (max-width : 800px) {
+    #profile {
+        flex-direction: column;
+        height: fit-content;
+    }
+    #about {
+        margin-top: 5vh;
+    }
+    .about-pic {
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .section-container {
+        flex-direction: column;
+    }
+    .section_pic-container {
+        height: 300px;
+        width: 300px;
+    }
+    .section_pic-container img {
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width : 940px) {
+    .flex-column {
+        flex-direction: column;
+    }
+}

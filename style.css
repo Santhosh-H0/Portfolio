@@ -158,6 +158,7 @@ section {
 
 .section-container {
     display : flex;
+    justify-content: center;
 }
 
 #profile {
@@ -261,6 +262,7 @@ section {
 
 #about {
     position: relative;
+    justify-content: center;
 }
 
 .about-containers {
@@ -304,11 +306,6 @@ section {
     height: 80%;
 }
 
-.section_pic-container{
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
-}
 
 /* Experience */
 
