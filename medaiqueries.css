@@ -80,7 +80,7 @@
     }
     section,
     .section-container {
-      height: fit-content;
+      min-height: fit-content;
     }
     section {
       margin: 0 5%;
@@ -99,6 +99,10 @@
     #contact,
     footer {
       height: 40vh;
+    }
+    footer{
+      display: grid;
+      align-items:end;
     }
     #profile {
       height: 83vh;
